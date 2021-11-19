@@ -12,15 +12,16 @@
   padding-top: 50px;
 }
 .Card {
-  min-width: 50px;
-  min-height: 60px;
+  min-width: 150px;
+  min-height: 200px;
   border: 1px solid #ccc;
   transform: rotateY(360deg);
   transition: all 0.7s;
 }
 .flipped {
-  min-width: 50px;
-  min-height: 60px;
+  position: relative;
+  min-width: 150px;
+  min-height: 200px;
   border: 2px solid #ccc;
   transform: rotateY(180deg);
   transition: all 0.5s;
@@ -32,6 +33,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
 }
-.Card-front {
-  max-width: 100px;
+
+.img {
+  max-width: 100%;
 }
